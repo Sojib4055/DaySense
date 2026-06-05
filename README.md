@@ -1,3 +1,12 @@
+---
+title: DaySense AI
+sdk: streamlit
+sdk_version: 1.58.0
+app_file: app.py
+python_version: 3.11
+license: mit
+---
+
 # DaySense AI
 
 **Weather-Based Human Impact Intelligence**
@@ -85,6 +94,7 @@ After clicking **Generate report**, the app shows:
 DaySense/
 |
 |-- app.py                    Streamlit UI and app flow
+|-- streamlit_app.py          Hugging Face Spaces Streamlit entry point
 |-- D.py                      Compatibility launcher
 |-- config.py                 Environment variables and constants
 |-- weather_api.py            WeatherAI API client and error handling
